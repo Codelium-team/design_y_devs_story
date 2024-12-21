@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Historia del Desarrollo Full Stack</title>
+    <style>
+       /* Estilos generales */
+       body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f9f9f9;
+            color: #333;
+        }
+
+        header {
+            text-align: center;
+            padding: 20px;
+            background-color: #2a2d34;
+            color: #fff;
+        }
+
+        .container {
+            width: 90%;
+            max-width: 1200px;
+            margin: 20px auto;
+            position: relative;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 20px auto;
+            padding: 10px 20px;
+            background: #5a67d8;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1rem;
+            transition: background 0.3s ease;
+        }
+
+        .button:hover {
+            background: #28a745;
+        }
+
+        .phase {
+            position: relative;
+            width: 40%;
+            margin: 10px 0;
+            padding: 80px;
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            text-align: justify;
+            box-sizing: border-box;
+            opacity: 0; /* Ocultas inicialmente */
+            transform: translateY(20px); /* Animación inicial */
+            transition: opacity 1s ease, transform 1s ease;
+        }
+
+        .phase.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+        .phase.left {
+            left: 0;
+        }
+
+        .phase.right {
+            left: 50%;
+        }
+
+            
+        .phase.left::before {
+            right: -12px;
+        }
+
+        .phase.right::before {
+            left: -12px;
+        }
+
+        @media (max-width: 768px) {
+            .phase {
+                width: 90%;
+                left: 5% !important;
+            }
+        }
+
+        /* Botón inicial */
+        #start {
+            background: #28a745;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 16px;
+            margin-top: 20px;
+        }
+    
+        #start:hover {
+            background: #218838;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h2>Historia de Desarrollo Full Stack</h2>
+        <p>Visualiza cada etapa del proceso con una línea de tiempo interactiva.</p>
+    </header>
+
+    <div class="container">
+        <div style="text-align: center;">
+            <button class="button" onclick="startAnimation()">Continuar el desarrollo</button>
+        </div>
+    
+    
+            <div class="phase left">33. Configuración Inicial: Configuración del entorno local, instalación de Node.js y PHP, y creación del repositorio en Git.</div>
+            <div class="phase right">34. Desarrollo Backend: Creación de la estructura del servidor, API REST y desarrollo de la lógica de negocio en PHP.</div>
+            <div class="phase left">35. Desarrollo Frontend: Implementación del diseño visual en HTML y CSS. Desarrollo de componentes interactivos con JavaScript.</div>
+            <div class="phase right">36. Integración: Conexión frontend-backend y pruebas funcionales.</div>
+            <div class="phase left">37. Pruebas: Seguridad, usabilidad y rendimiento.</div>
+            <div class="phase right">38. Despliegue: Configuración del servidor en HostGator y subida de archivos. Pruebas en producción.</div>
+            <div class="phase left">39. Entrega Final: Presentación al cliente, entrega de accesos y formación para el uso del sistema.</div>
+            
+            <!-- Botón para iniciar la animación -->
+        <div style="text-align: center;">
+            <a href="/design_story.html" style="text-decoration: none;">
+            <button id="start">Volver a UX - UI</button>
+            </a>
+        </div>
+    </div>
+
+
+    <script>
+        function startAnimation() {
+            const phases = document.querySelectorAll('.phase');
+            phases.forEach((phase, index) => {
+                setTimeout(() => {
+                    phase.classList.add('active');
+                }, index * 800);
+            });
+        }
+
+        
+    </script>
+</body>
+</html>
