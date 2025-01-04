@@ -121,41 +121,95 @@ session_start();
             <p1>Comprender al usuario, su contexto y necesidades para identificar problemas clave.</p1>
         </div>
         <div class="step" id="step3">
-            <h2>A. Research UX: </h2>
-            <p1>Entrevistas, observaciones y encuestas para recolectar datos sobre el usuario y su entorno.</p1>
+            <h2>A. Brief Inicial: </h2>
+            <ol>
+                <li>Reunión con el cliente para entender su visión, misión y valores.</li>
+                <li>Identificación del público objetivo y sus necesidades (stakeholders primarios y secundarios).</li>
+                <li>Definición de los objetivos principales de la página (informar, captar leads, mostrar productos/servicios, etc.).</li>
+                <li>Entender las expectativas visuales: ¿tradicional o moderna?, ¿minimalista o detallada?</li>
+              </ol>
+        </div>
+        <div class="step" id="step4">
+            <h2>B. Análisis de la competencia: </h2>
+            <ol>
+                <li>Exploración de páginas web similares para entender patrones comunes, diferenciales clave y áreas de mejora.</li>
+            </ol>
         </div>
         <div class="step" id="step5">
-            <h2>B. Levantamiento de funcionalidades y requerimientos: </h2>
-            <p1>Análisis de lo que el sistema o producto debe ofrecer según las necesidades identificadas y el alcance que tendrá el proyecto.</p1>
+            <h2>C. Historia de usuario: </h2>
+            <ol>
+                <li>Casos de uso.</li>
+                <li>Levantamiento de las funcionalidad (Si se da el caso).</li>
+            </ol>
         </div>
-        
+        <div class="step" id="step6">
+            <h2>D. Documentación y requisitos: </h2>
+            <ol>
+                <li>Creación de un documento de requerimientos donde se especifique.</li>
+                <li>Jerarquía de contenido.</li>
+                <li>Funcionalidades necesarias (formularios, blogs, secciones dinámicas).</li>
+                <li>Limitaciones técnicas (hosting, presupuesto, CMS preferido).</li>
+            </ol>
+        </div>
         <!-- Fase 2 -->
-        <div class="step" id="step4">
+        <div class="step" id="step7">
             <h1>Fase 2: Ideación y Propuesta</h1>
         </div>
         <!-- Actividades Fase 2 -->
-        <div class="step" id="step5">
+        <div class="step" id="step8">
             <h2>Objetivo</h2>
             <p1>Sintetizar la información recolectada en problemas claros y estructurados para resolver.</p1>
         </div>
-        <div class="step" id="step6">
-            <h2>A. Arquitectura del sitio:</h2>
-            <p1>Diseño de mapas del sitio y definición de la estructura general del producto.</p1>
-        </div>
-        
-        <div class="step" id="step7">
-            <h2>B. User Persona, Customer Journey y Blueprint (Design Service):</h2>
-            <p1>Creación de arquetipos de usuarios y mapeo de su interacción con el sistema o servicio.</p1>
-        </div>
-        <div class="step" id="step8">
-            <h2>C. Wireframes y Flujos de Usuario:</h2>
-            <p1>Diseño de baja fidelidad que explora los casos de uso y las historias de usuario.</p1>
-        </div>
         <div class="step" id="step9">
-            <h2>D. Iteración con stakeholders y desarrolladores:</h2>
-            <p1>Validación y ajustes de las propuestas iniciales.</p1>
+                <h2>A. UX research: </h2>
+                <ol>
+                    <li>User personas, Customer jorney Map y Blue print (Service design) para algunos casos</li>
+                    <li>Elementos de investigación, encuestas, cuestionarios, etc.</li>
+                    <li>Metodos de investigación (Card sourting, tree testing, entrevistas, cuestionarios, etc). (Solo si el cliente lo requiere)</li>
+                </ol>
         </div>
-        
+            
+        <div class="step" id="step10">
+            <h2>B. Mapa del sitio (Sitemap):</h2>
+            <ol>
+                <li>Diseño de la estructura jerárquica de navegación (ej.: Inicio, Nosotros, Servicios, Contacto).</li>
+                <li>Priorización de contenido para una experiencia de usuario fluida.</li>
+                
+            </ol>
+        </div>
+        <div class="step" id="step11">
+            <h2>C. Creación de flujos de usuario</h2>
+            <ol>
+                <li>Mapeo de las interacciones clave del usuario (ej.: llenar un formulario, solicitar información).</li>
+                <li>Asegurarse de que los flujos sean intuitivos y rápidos.</li>
+                
+            </ol>
+        </div>
+        <div class="step" id="step12">
+            <h2>D. Wireframes de baja fidelidad:</h2>
+            <ol>
+                <li>Creación de bocetos simples en herramientas como Figma o Adobe XD.</li>
+                <li>Enfoque en la funcionalidad básica y distribución espacial.</li>
+                
+            </ol>
+        </div>
+        <div class="step" id="step13">
+            <h2>E. Prototipo estatico de Alta fidelidad:</h2>
+            <ol>
+                <li>Pantallas estaticas, iteración.</li>
+                <li>Prototipo de una acción concreta (Historia de usuario)</li>
+                <li>Prototipo Interctivo en mobile  (Si se da el caso y el PY lo requiere)</li>
+                
+            </ol>
+        </div>
+        <div class="step" id="step14">
+            <h2>F. Presentación al cliente:</h2>
+            <ol>
+                <li>Revisión colaborativa del sitemap y wireframes.</li>
+                <li>Recopilación de feedback inicial antes de avanzar.</li>
+                                
+            </ol>
+        </div>
         <!-- Fase 3 -->
         <div class="step" id="step20">
             <h1>Fase 3: Idear (Diseño de Experiencia - UX)</h1>
@@ -167,40 +221,55 @@ session_start();
             <p1>Explorar soluciones creativas y diseñar cómo los usuarios interactuarán con el producto.</p1>
         </div>
         <div class="step" id="step22">
-            <h2>A. Prototipos de baja resolución:</h2>
-            <p1>Creación de prototipos rápidos para iterar sobre ideas.</p1>
+            <h2>G. Validaciones:</h2>
+            <ol>
+                <li>Validación con usuarios internos y potenciales clientes del cliente (si es posible).</li>
+            </ol>
         </div>
-        <div class="step" id="step22">
-            <h2>B. Iteración con stakeholders y desarrolladores:</h2>
-            <p1>Feedback temprano para refinar ideas antes de avanzar.</p1>
+        <div class="step" id="step23">
+            <h2>H. Iteración basada en feedback:</h2>
+            <ol>
+                <li>Mejoras en la arquitectura de información y funcionalidad según las pruebas.</li>
+            </ol>
         </div>
 
         <!-- Fase 4 -->
-        <div class="step" id="step23">
+        <div class="step" id="step24">
             <h1>Fase 4: Prototipar (Diseño de Interfaz - UI)</h1>
         </div>
 
         <!-- Actividades Fase 4 -->
-        <div class="step" id="step24">
+        <div class="step" id="step25">
             <h2>Objetivo</h2>
             <p1>Materializar las ideas en diseños de alta fidelidad que puedan ser probados y evaluados.</p1>
         </div>
-        <div class="step" id="step25">
-            <h2>A. Prototipos de alta fidelidad:</h2>
-            <p1>Diseños detallados para los dispositivos requeridos.</p1>
-        </div>
         <div class="step" id="step26">
-            <h2>B. Iteración con usuarios finales, stakeholders y desarrolladores:</h2>
-            <p1>Validación del look and feel del producto con todos los involucrados.</p1>
+            <h2>I. Moodboard y exploración visual:</h2>
+            <ol>
+                <li>Recolección de referencias visuales.</li>
+                <li>Definición de una paleta de colores, tipografías y elementos gráficos acordes con la identidad del cliente.</li>
+                                
+            </ol>
         </div>
         <div class="step" id="step27">
-            <h2>C. Design System y Atomic Design:</h2>
-            <p1>Estandarización del diseño mediante guías y componentes para el desarrollo.</p1>
+            <h2>J. Prototipo de alta fidelidad:</h2>
+            <ol>
+                <li>Aplicación de diseño visual detallado a los wireframes.</li>
+                <li>Uso de componentes interactivos como botones, transiciones y hover states.</li>
+                <li>Integración de textos reales y recursos visuales proporcionados por el cliente.</li>               
+            </ol>
+        </div>
+        <div class="step" id="step28">
+            <h2>K. Entrega para validación final:</h2>
+            <ol>
+                <li>Presentación de un prototipo clicable para que el cliente experimente la página como si ya estuviera funcionando.</li>
+                <li>Ajustes menores basados en sus observaciones.</li>
+            </ol>
         </div>
 
         <!-- Fase 5 -->
-        <div class="step" id="step28">
-            <h1>Fase 5: Prototipar (Diseño de Interfaz - UI)</h1>
+        <div class="step" id="step29">
+            <h1>Fase 5: Preparación para Desarrollo</h1>
         </div>
 
         <!-- Actividades Fase 5 -->
@@ -209,16 +278,25 @@ session_start();
             <p1>Evaluar el prototipo final con usuarios reales y preparar la entrega al equipo de desarrollo.</p1>
         </div>
         <div class="step" id="step30">
-            <h2>A. Prototipo interactivo:</h2>
-            <p1>Enfoque en acciones específicas o historias de usuario clave.</p1>
+            <h2>L. Documentación y handoff:</h2>
+            <ol>
+                <li>Organización del diseño en herramientas como Figma o (Zeplin es de pago depende del presupuesto) para que el equipo de desarrollo tenga acceso a especificaciones claras.</li>
+                <li>Exportación de assets gráficos optimizados (logos, íconos, imágenes).</li>
+            </ol>
         </div>
         <div class="step" id="step31">
-            <h2>B. Testeo con usuarios reales:</h2>
-            <p1>Validación de usabilidad y experiencia.</p1>
+            <h2>M. Colaboración con desarrolladores:</h2>
+            <ol>
+                <li>Soporte en la implementación inicial, verificando que se respeten los lineamientos de diseño.</li>
+                <li>Asistencia en ajustes rápidos del diseño para adaptarse a limitaciones técnicas.</li>
+            </ol>
         </div>
         <div class="step" id="step32">
-            <h2>C. Hand-off a desarrolladores:</h2>
-            <p1>Entrega final del prototipo con toda la documentación necesaria para implementarlo.</p1>
+            <h2>N. Entrega final del prototipo:</h2>
+            <ol>
+                <li>Sección de agradecimiento y alineación con el equipo para la siguiente fase: desarrollo e implementación.</li>
+                
+            </ol>
         </div>
 
         <!-- Entrega final -->
